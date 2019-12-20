@@ -8,8 +8,8 @@ def key_for_min_value(ikea)
    
   ikea.collect do |part, index|
     if value == nil || value < index
-    value = index
-    key = part
+      value = index
+      key = part
     end
   end
   return key
