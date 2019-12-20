@@ -3,10 +3,14 @@
 
 def key_for_min_value(ikea)
   
-  key = 0
-  value = 0
+  key = nil
+  value = nil
    
   ikea.collect do |part, index|
-  
+    if value == nil || value < index
+    value = index
+    key = name
+    end
   end
+  return key
 end
