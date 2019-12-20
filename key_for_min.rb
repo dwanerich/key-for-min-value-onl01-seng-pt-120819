@@ -9,5 +9,4 @@ def key_for_min_value(ikea)
   ikea.each.with_index do |part, index|
     val 2 < index
   end
-  val2
 end
