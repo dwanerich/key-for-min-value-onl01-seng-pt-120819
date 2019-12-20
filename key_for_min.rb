@@ -3,10 +3,10 @@
 
 def key_for_min_value(ikea)
   
-    lowest_part = nil
-    lowest_price = nil
+    val1 = nil
+    val2 = nil
   ikea.each.with_index do |part, index|
-    lowest_price < index
+    val2 < index
     
   end
     
