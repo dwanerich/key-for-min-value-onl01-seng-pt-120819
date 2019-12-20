@@ -3,10 +3,10 @@
 
 def key_for_min_value(ikea)
   
-  val1 = 0
-  val2 = 0
-  lowest_price = 
-  ikea.collect.with_index do |part, index|
+  key = 0
+  value = 0
+   
+  ikea.collect do |part, index|
   
   end
 end
