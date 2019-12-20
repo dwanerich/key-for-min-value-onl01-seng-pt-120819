@@ -9,7 +9,7 @@ def key_for_min_value(ikea)
   ikea.collect do |part, index|
     if value == nil || value < index
     value = index
-    key = name
+    key = part
     end
   end
   return key
