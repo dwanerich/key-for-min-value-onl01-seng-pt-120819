@@ -5,7 +5,7 @@ def key_for_min_value(ikea)
   
   val1 = 0
   val2 = 0
-  nil = {}
+  empty_hash = nil
   ikea.each.with_index do |part, index|
     
   end
